@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.CadastroActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/aaaaa" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_nome"
+        android:layout_width="259dp"
+
+        android:layout_height="30dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="10"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_pressed"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_cadastro_email"
+        android:layout_width="259dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="10"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_pressed" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_senha"
+        android:layout_width="259dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/login_edittext_bg"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_pressed" />
+
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:background="@drawable/login_button_bg"
+        android:text="Cadastrar" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.MainActivity"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+    android:orientation="vertical">
+
+
+
+
+    <ImageButton
+        android:id="@+id/btn1"
+
+        android:layout_width="258dp"
+        android:layout_height="258dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/poweroff"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnConectar"
+        android:layout_width="258dp"
+        android:background="@drawable/botao_custom"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Conectar-se ao dispositivo" />
+</RelativeLayout>
